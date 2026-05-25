@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+
+  "files.exclude": {
+    "**/.turbo": true,
+    "**/dist": true
+  }
+}
