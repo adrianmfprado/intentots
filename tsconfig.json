@@ -1,3 +1,10 @@
 {
-  "extends": "./tsconfig.base.json"
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    // "ignoreDeprecations": "6.0"
+  },
+  "include": [
+    "packages/**/*",
+    "examples/**/*"
+  ]
 }

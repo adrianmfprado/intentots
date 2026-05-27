@@ -12,15 +12,23 @@
     "isolatedModules": true,
     "noUncheckedIndexedAccess": true,
     "forceConsistentCasingInFileNames": true,
-    "ignoreDeprecations": "6.0",
-
     "baseUrl": ".",
+    "types": ["node"],
     "paths": {
       "@intentots/core": [
         "packages/core/src"
       ],
       "@intentots/provider-mock": [
         "packages/provider-mock/src"
+      ],
+      "@intentots/provider-openai": [
+        "packages/provider-openai/src"
+      ],
+      "@intentots/type-engine": [
+        "packages/type-engine/src"
+      ],
+      "@intentots/compiler": [
+        "packages/compiler/src"
       ]
     }
   }

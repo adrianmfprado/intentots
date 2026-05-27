@@ -1,0 +1,10 @@
+{
+  "name": "example-type",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@intentots/core": "workspace:*",
+    "@intentots/type-engine": "workspace:*"
+  }
+}

@@ -4,6 +4,8 @@ export interface GenerateInput {
 
   temperature?: number
   maxTokens?: number
+
+  schema?: unknown
 }
 
 export interface GenerateOutput {
